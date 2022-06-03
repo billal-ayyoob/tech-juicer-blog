@@ -8,6 +8,6 @@ export const onRouteUpdate = ({ location, prevLocation }) =>{
     console.log("old pathname", prevLocation ? prevLocation.pathname : null);
 }
 
-export const wrapPageElement = ({ element, props }) =>{
-    return <Layout {...props}>{element}</Layout>
-}
+// export const wrapPageElement = ({ element, props }) =>{
+//     return <Layout {...props}>{element}</Layout>
+// }
